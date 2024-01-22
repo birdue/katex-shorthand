@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "minify": "sed '/^[[:space:]]*%/d' shorthand.tex | tr -d ' \t\n' > shorthand.min.tex"
+    "minify": "sed 's/%.*//' shorthand.tex | tr -d '[:space:]' > shorthand.min.tex"
   },
   "author": "",
   "license": "ISC"

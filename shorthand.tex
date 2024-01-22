@@ -1,35 +1,40 @@
 $$
-% KaTeX Shorthand Template
-\gdef\a#1{\begin{align*}#1\end{align*}}
-\gdef\b#1{\mathbf{#1}}
-\gdef\bb#1{\mathbb{#1}}
+% General commands
+\gdef\a#1{\begin{align*}#1\end{align*}} % [A]lign
+\gdef\b#1{\mathbf{#1}} % [B]oldface
+\gdef\bb#1{\mathbb{#1}} % [B]lackboard [b]old
 \gdef\bc{\because}
-\gdef\c{\cdot}
-\gdef\cs{\cdots}
-\gdef\d{\displaystyle}
-\gdef\de#1{\begin{vmatrix}#1\end{vmatrix}}
-\gdef\dg{\degree}
+\gdef\d{\cdot} % [D]ot
+\gdef\dd{\cdots} % [D]ot [d]ot
+\gdef\ddd{\ddots} % [D]ot [d]ot [d]iagonal
+\gdef\ddl{\ldots} % [D]ot [d]ot [l]ow
+\gdef\ddv{\vdots} % [D]ot [d]ot [v]ertical
+\gdef\de#1{\begin{vmatrix}#1\end{vmatrix}} % [De]terminant
+\gdef\dg{\degree} % [D]e[g]ree
+\gdef\ds{\displaystyle}
 \gdef\f#1#2{\frac{#1}{#2}}
 \gdef\i#1#2{\int_{#1}^{#2}}
 \gdef\inf{\infty}
-\gdef\la{\langle}
+\gdef\la{\langle} % [L]eft [a]ngle bracket
 \gdef\larr{\leftarrow}
-\gdef\lp{\left(}
-\gdef\m#1{\begin{bmatrix}#1\end{bmatrix}}
+\gdef\lp{\left(} % [L]eft [p]arenthesis
+\gdef\m#1{\begin{bmatrix}#1\end{bmatrix}} % [M]atrix
 \gdef\n{\newline}
 \gdef\p#1#2{\prod_{#1}^{#2}}
 \gdef\q{\quad}
-\gdef\ra{\rangle}
+\gdef\r#1{\sqrt{#1}} % Square [r]oot
+\gdef\ra{\rangle} % [R]ight [a]ngle bracket
 \gdef\rarr{\rightarrow}
-\gdef\rp{\right)}
-\gdef\rt#1{\sqrt{#1}}
+\gdef\rp{\right)} % [R]ight [p]arenthesis
+\gdef\rt#1#2{\sqrt[#1]{#2}} % nth [r]oo[t]
 \gdef\s#1#2{\sum_{#1}^{#2}}
 \gdef\so{\therefore}
 \gdef\t#1{\text{#1}}
+\gdef\tp{^\top} % [T]rans[p]ose
 \gdef\ts{\textstyle}
 \gdef\x{\times}
 
-% Greek letters
+% [G]reek letters
 \gdef\ga{\alpha}
 \gdef\gA{\Alpha}
 \gdef\gb{\beta}
